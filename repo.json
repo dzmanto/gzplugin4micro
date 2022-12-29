@@ -1,12 +1,11 @@
 [{
   "Name": "gzplugin",
   "Description": "support for .gz files",
-  "Tags": ["vcs", "git"],
-  "Website": "https://github.com/dzmanto/gzplugin",
+  "Tags": ["gz", "gzip"],
   "Versions": [
 		{
 			"Version": "1.0.0",
-			"Url": "https://github.com/dzmanto/gzplugin/archive/v1.0.0.zip",
+			"Url": "https://github.com/dzmanto/gzplugin4micro/archive/1.0.0.zip",
 			"Require": {
 				"micro": ">=2.0.7",
 			}
