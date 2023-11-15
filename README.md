@@ -12,3 +12,31 @@ text editors such as vim also provide such functionality.
   of the filename. If the suffix is .gz, the contents of the text
   buffer will be compressed. Appropriate information about crc32 and
   text buffer length is appended.
+
+## Installation
+
+### Settings
+
+Add this repo as a **pluginrepos** option in the **~/.config/micro/settings.json** file (it is necessary to restart the micro after this change):
+
+```json
+{
+  "pluginrepos": [
+      "https://raw.githubusercontent.com/dzmanto/gzplugin4micro/master/repo.json"
+  ]
+}
+```
+
+### Install
+
+In your micro editor press **Ctrl-e** and run command:
+
+```
+> plugin install gzplugin
+```
+
+or run in your shell
+
+```sh
+micro -plugin install gzplugin
+```
